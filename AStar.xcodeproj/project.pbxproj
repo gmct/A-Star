@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0ADDEA2524F06A0003DEBA /* carthage-fix.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "carthage-fix.xcconfig"; sourceTree = "<group>"; };
 		742513591D679CCC005E198C /* AStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7425135C1D679CCC005E198C /* AStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
 		7425135D1D679CCC005E198C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		7425134F1D679CCC005E198C = {
 			isa = PBXGroup;
 			children = (
+				5B0ADDEA2524F06A0003DEBA /* carthage-fix.xcconfig */,
 				74D2FBD01F4EFBFB00A48C44 /* README.md */,
 				7446343A20AAFB3A00B63771 /* Playground.playground */,
 				7425135B1D679CCC005E198C /* Sources */,
@@ -341,6 +343,7 @@
 /* Begin XCBuildConfiguration section */
 		7425136B1D679CCC005E198C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0ADDEA2524F06A0003DEBA /* carthage-fix.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -404,6 +407,7 @@
 		};
 		7425136C1D679CCC005E198C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0ADDEA2524F06A0003DEBA /* carthage-fix.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
